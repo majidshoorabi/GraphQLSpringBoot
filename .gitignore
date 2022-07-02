@@ -157,7 +157,7 @@ buildNumber.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,maven,java
 
-Security.iml
+*.iml
 mvnw
 mvnw.cmd
 .mvn
