@@ -1,8 +1,10 @@
 package com.github.majidshoorabi.graphqlspringboot.domain.banck;
 
 import lombok.Builder;
-import lombok.Value;
+import lombok.Getter;
+import lombok.Setter;
 
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -11,12 +13,15 @@ import java.util.UUID;
  * @project IntelliJ IDEA
  */
 
-@Value
+@Getter
+@Setter
 @Builder
-public class BankAccount {
+public class Client {
 
     private UUID id;
-    private String name;
+    private String firstname;
+    private List<String> middleNames;
+    private String lastname;
     private Client client;
-    private Currency currency;
+
 }
