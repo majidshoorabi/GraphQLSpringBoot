@@ -8,7 +8,7 @@
         <version>2.7.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.github.majjidshoorabi</groupId>
+    <groupId>com.github.majidshoorabi</groupId>
     <artifactId>GraphQLSpringBoot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>GraphQLSpringBoot</name>
