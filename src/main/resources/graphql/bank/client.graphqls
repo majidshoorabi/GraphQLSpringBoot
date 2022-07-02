@@ -3,4 +3,5 @@ type Client {
     firstname: String!
     middleNames: [String!]
     lastname: String!
+    client: Client
 }
